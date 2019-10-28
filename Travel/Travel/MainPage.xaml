@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Travel.MainPage">
+
+    <RelativeLayout
+ 
+        Margin="0,0,0,150" FlowDirection="MatchParent" BackgroundColor="#5D1616" >
+  
+        <Image
+          Aspect="AspectFill"
+          Source="home_background.png"
+          RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}"
+        />
+        <StackLayout Grid.Column="1" Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"
+          RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}">
+            <Label Text="UKRAINE"
+           TextColor="White"
+           VerticalOptions="Center"
+           VerticalTextAlignment="Center"
+           HorizontalOptions="Center"
+           FontFamily="Raleway-Regular.ttf#Raleway-Regular"        
+           FontSize="22" />
+            <Label Text="LVIV"
+           TextColor="White"
+           VerticalOptions="Center"
+           VerticalTextAlignment="Center"
+           HorizontalOptions="Center"
+           FontFamily="Raleway-Medium.ttf#Raleway-Medium"        
+           FontSize="48" />
+            <Label Text="IS THE CULTURE CAPITAL"
+           TextColor="White"
+           VerticalOptions="Center"
+           VerticalTextAlignment="Center"
+           HorizontalOptions="Center"
+           FontFamily="Raleway-SemiBold.ttf#Raleway-SemiBold"        
+           FontSize="18" />
+
+
+        </StackLayout>
+    </RelativeLayout>
+
+</ContentPage>
